@@ -1,0 +1,50 @@
+	h1{
+		color: #d5fc95;
+	}
+	h2{
+		color: #fc95c7;
+	}
+	h3{
+			
+	}
+	p{
+		color:#4287f5;
+	}
+	body{
+		background-color:#034a05;text-align:center;
+	}
+	a:link{
+		color:#42f5ad
+	}
+	a:visited{
+		color:#4287f5
+	}
+	a:hover{
+		color:#f542c8
+	}
+	p{
+		font-family: Georgia, serif;
+	}
+	table{
+		width: 100%;
+		background-color: rgba(240,240,240,0.2);
+	}
+	tr:nth-child(even){
+		background-color:#eee;
+	}
+	tr:nth-child(odd){
+		background-color:#fff;
+	}
+	caption{
+		font-size:22px;
+		padding: 8px;
+	}
+	th{
+		padding: 15px;
+		background-color: rgba(0,0,0,1);
+		color: white;
+		text-weight: normal;
+	}
+	footer{
+		color:#78aafa;
+	}
