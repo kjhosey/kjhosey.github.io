@@ -9,7 +9,7 @@
 <html lang="en-US">
 	<head>
 		<title></title>
-		<meta http-equiv="refresh" content="0; url=http://example.com/" />
+		<meta http-equiv="refresh" content="0; url=https://kjhosey.github.io/index.html" />
 	</head>
 	
 	<body>
