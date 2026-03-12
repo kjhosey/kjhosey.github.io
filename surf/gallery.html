@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+	Program Name: 
+	Programmers Name:Kevin Hosey
+	Date Written:
+	Program Purpose:
+-->
+<html lang="en-US">
+	<head>
+		<title>Surf 'N Turf - Gallery</title>
+		<link rel="stylesheet" href="style.css">
+		
+	</head>
+	
+	<body>
+	<script>
+			function cyclingSwap(){
+				document.getElementById("swap").src = "img/cycling.jpg";
+			}
+			function raftingSwap(){
+				document.getElementById("swap").src = "img/rafting.jpg";
+			}
+			function scubaSwap(){
+				document.getElementById("swap").src = "img/scuba.jpg";
+			}
+	</script>
+	<header>
+		<h1>SURF 'n TURF Tours&#8482</h1>
+		<nav>
+			<a href="index.html">Home</a> |
+			<a href="information.html">Information</a> |
+			<a href="services.html">Services</a> |
+			<a href="contact_us.html">Contact Us</a> |
+			<a href="map.html">Map</a> |
+			<a href="gallery.html">Gallery</a>
+		</nav>
+	</header>
+	<hr>
+	<section id="content">
+	<div>
+		<img id="swap" src="img/cycling.jpg" width="800">
+		<br>
+		<button type="button" onclick="cyclingSwap()">Cycling</button>
+		<button type="button" onclick="raftingSwap()">Rafting</button>
+		<button type="button" onclick="scubaSwap()">Scuba</button>
+	</div>
+	</section>
+	<hr>
+	<footer>
+		Copyright 2026 &#169 <span class="branding">SURF 'n TURF Tours&#8482 </span>
+	</footer>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+			body{
+				background-image: url('img/orangetexture.gif'); 
+				font-family: Lucida Sans Unicode;
+			}
+			header{
+				text-align:center
+			}
+			footer{
+				text-align:center; 
+				padding:50px;
+			}
+			div{
+				text-align:center;
+			}
+			a:link{
+				color:#000000
+			}
+			a:visited{
+				color:#000000
+			}
+			a:hover{
+				color:#D3D3D3 
+			}
+			a{
+				text-decoration:none;
+			}
+			.branding{
+				font-style: italic;
+			}
+			#content{
+				padding:30px;
+			}
+			table, th, td{
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			th, td{
+				padding: 8px;
+			}
+			table{
+				width: 100%;
+				background-color: rgba(240,240,240,0.2);
+			}

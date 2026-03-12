@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+	Program Name: 
+	Programmers Name:Kevin Hosey
+	Date Written:
+	Program Purpose:
+-->
+<html lang="en-US">
+	<head>
+		<title>JAVASCRIPT GO BURRRRRRRRRRRRRRRRRR the sequal</title>
+		<style>
+			#room{
+				text-align: center;
+				background-color: black;
+				color: white;
+			}
+		</style>
+	</head>
+	
+	<body id="room">
+		<p></p>
+		<p></p>
+		<button type="button" onclick="turnOn()">AHHH ITS TOO DARK</button>
+		<img id="myImage" src="imgs/pic_bulboff.gif" alt="toggle bulb on/off">
+		<button type="button" onclick="turnOff()">AHHH ITS TOO BRIGHT</button>
+		<script>
+			function turnOn(){
+				document.getElementById("myImage").src = "imgs/pic_bulbon.gif";
+				document.getElementById("room").style.color = "black";
+				document.getElementById("room").style.backgroundColor = "white";
+			}
+			function turnOff(){
+				document.getElementById("myImage").src = "imgs/pic_bulboff.gif";
+				document.getElementById("room").style.color = "white";
+				document.getElementById("room").style.backgroundColor = "black";
+			}
+		</script>
+	</body>
+</html>
