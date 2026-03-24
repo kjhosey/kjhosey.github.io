@@ -48,3 +48,38 @@
 	footer{
 		color:#78aafa;
 	}
+	.icons{
+		margin: auto;
+		text-align: center;
+	}
+	i{
+		padding: 10px;
+	}
+	.fa-discord{
+		color: #5865F2;
+		font-size: 45px;
+	}
+	.fa-twitch{
+		color: #9146FF;
+		font-size: 45px;
+	} 
+	.fa-youtube{
+		color: #FF0000;
+		font-size: 45px;
+	} 
+	.fa-steam{
+		color: #00adee;
+		font-size: 45px;
+	} 
+	.fa-spotify{
+		color: #1DB954;
+		font-size: 45px;
+	} 
+	.fa-d-and-d{
+		color: #DF0000;
+		font-size: 45px;
+	} 
+	.fa-github{
+		color: black;
+		font-size: 45px;
+	} 
